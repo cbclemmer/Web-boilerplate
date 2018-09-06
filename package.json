@@ -10,6 +10,7 @@
   "license": "ISC",
   "homepage": "https://bitbucket.org/heavensound-/game#readme",
   "dependencies": {
+    "@profiscience/knockout-contrib": "^1.0.0",
     "babel": "^6.23.0",
     "babel-core": "^6.23.1",
     "babel-loader": "^6.3.1",
