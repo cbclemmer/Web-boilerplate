@@ -6,7 +6,8 @@ const API = require('../API')
 // All the GET routes for the API
 const routes = {
   // EX: '/api/foo/bar: API.foo.bar'
-  '/api/ping': API.test.ping
+  '/api/ping': API.test.ping,
+  '/api/purchase/:id': API.purchase.get
 }
 
 module.exports = (app, db) => {
