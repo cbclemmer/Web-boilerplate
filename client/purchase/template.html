@@ -1,0 +1,31 @@
+<h2>Purchases</h2>
+
+{{#if ready}}
+<form data-bind="submit: save, with: purchase">
+  <div class="form-group">
+    <label>Date</label>
+    <input type="text" class="form-control" data-bind="textInput: date" />
+  </div>
+
+  <div class="form-group">
+    <label>Title</label>
+    <input type="text" class="form-control" data-bind="textInput: title" />
+  </div>
+
+  <div class="form-group">
+    <label>Description</label>
+    <textarea type="text" class="form-control" data-bind="value: description"></textarea>
+  </div>
+
+  <div class="form-group">
+    <label>Amount</label>
+    <input type="number" class="form-control" data-bind="textInput: amount" />
+  </div>
+
+  <div class="form-group">
+    <button class="btn btn-large btn-primary" type="submit">
+      Save
+    </button>
+  </div>
+</form>
+{{/if}}

@@ -2,5 +2,6 @@
 
 // Add your top level routes here
 export default {
-  '/': 'home'
+  '/': 'home',
+  '/purchase': 'purchase'
 }
