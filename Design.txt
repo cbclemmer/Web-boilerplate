@@ -23,6 +23,7 @@ Fee: added to a sale. Detracts from profits
 ListingID
 Date
 Description
+Amount
 
 Bill: business expense
 Date

@@ -11,7 +11,13 @@ const routes = {
   '/api/purchases/:id': API.purchase.get,
 
   '/api/listings': API.listing.getList,
-  '/api/listings/:id': API.listing.get
+  '/api/listings/:id': API.listing.get,
+
+  '/api/sales': API.sale.getList,
+  '/api/sales/:id': API.sale.get,
+
+  '/api/fees': API.fee.getList,
+  '/api/fees/:id': API.fee.get
 }
 
 module.exports = (app, db) => {

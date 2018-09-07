@@ -7,7 +7,9 @@ const API = require('../API')
 const routes = {
   // EX: '/api/foo/bar: API.foo.bar'
   '/api/purchases': API.purchase.post,
-  '/api/listings': API.listing.post
+  '/api/listings': API.listing.post,
+  '/api/sales': API.sale.post,
+  '/api/fees': API.fee.post
 }
 
 module.exports = (app, db) => {
