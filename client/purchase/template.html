@@ -22,8 +22,12 @@
     <input type="number" class="form-control" data-bind="textInput: amount" />
   </div>
 
+  {{#ifnot $component.valid }}
+    <p style="color: red">{{ $component.warning }}</p>
+  {{/ifnot}}
+
   <div class="form-group">
-    <button class="btn btn-large btn-primary" type="submit">
+    <button class="btn btn-large btn-primary" type="submit" data-bind="enable: $component.valid">
       Save
     </button>
   </div>

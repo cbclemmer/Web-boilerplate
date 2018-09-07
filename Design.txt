@@ -1,0 +1,31 @@
+Inventory Manangement - IM
+
+Purchase: Adds items to the inventory
+Date
+Title
+Description
+Amount
+Reference
+
+Listing: Made from a purchase (can have no purchase assigned). Meant to show how much money can be made with inventory
+purchaseID
+Date
+Title
+Reference
+Listed Amount
+
+Sale: made from a listing. Adds value back into bank
+ListingID
+Date
+Amount
+
+Fee: added to a sale. Detracts from profits
+ListingID
+Date
+Description
+
+Bill: business expense
+Date
+Description
+Amount
+
