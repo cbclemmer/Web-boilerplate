@@ -12,7 +12,7 @@ const app = require('./config/express')
 const routes = require('./routes')
 
 // Replace url
-const url = 'mongodb://localhost/test'
+const url = 'mongodb://localhost/inventory'
 
 // Connect to the mongo database
 new Promise((res, rej) => MongoClient.connect(url, (err, db) => err ? rej(err) : res(db)))

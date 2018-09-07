@@ -8,7 +8,10 @@ const routes = {
   // EX: '/api/foo/bar: API.foo.bar'
   '/api/ping': API.test.ping,
   '/api/purchases': API.purchase.getList,
-  '/api/purchases/:id': API.purchase.get
+  '/api/purchases/:id': API.purchase.get,
+
+  '/api/listings': API.listing.getList,
+  '/api/listings/:id': API.listing.get
 }
 
 module.exports = (app, db) => {
